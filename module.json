@@ -3,13 +3,20 @@
 	"title": "Mooks, Grunts and Guns",
 	"description": "Adds Generic NPCs and weapons",
 	"author": "Matt Griffiths",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minimumCoreVersion": "0.5.0",
 	"compatibleCoreVersion": "0.5.5",
 	"packs": [{
 			"name": "weapons",
 			"label": "Generic Weapons",
 			"path": "packs/generic-weapons.db",
+			"entity": "Item",
+			"system": "cyberpunkred",
+			"module": "cpunk-mooks-grunts-and-guns"
+		},
+		{   "name": "cyberware",
+			"label": "GCyberware",
+			"path": "packs/cyberware.db",
 			"entity": "Item",
 			"system": "cyberpunkred",
 			"module": "cpunk-mooks-grunts-and-guns"
